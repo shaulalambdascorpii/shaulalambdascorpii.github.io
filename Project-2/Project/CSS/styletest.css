@@ -1,0 +1,26 @@
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text-center-image {
+    position: absolute;
+    top: 40%;
+    font-size: 4em;
+  }
+
+  .moreyboogie {
+    position: relative;
+    width: 300px;
+    height:300px;
+    opacity: 0.8;
+    object-fit: cover;
+    object-position: 0% 20%;
+    border-radius: 8px;
+    margin: 30px;
+  }
+  
