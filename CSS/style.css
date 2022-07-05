@@ -94,14 +94,19 @@ a {
   color: white;
 }
 
-.moreyboogie {
+.imagelinks {
   object-fit: cover;
   object-position: 0% 20%;
   width: 300px;
   height: 300px;
   border-radius: 8px;
-  margin: 20px;
+  margin: 30px;
   opacity: 0.7;
+}
+
+.imagelinks:hover, .text-center-image:hover {
+  opacity: 1.0;
+  font-weight: bold;
 }
 
 .container {
@@ -114,7 +119,42 @@ a {
 }
 
 .text-center-image {
-  position: absolute;
-  top: 50%;
   font-size: 4em;
+  margin: 0px;
+}
+
+.box-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-gap: 1.5rem;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.para-history {
+  text-align: left;
+  font-family: 'Verdana', sans-serif;
+  line-height: 2.0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.moreyboogie {
+  object-fit: cover;
+  object-position: 0% 20%;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+figcaption {
+  text-align: center;
+  font-family: 'Verdana', sans-serif;
+  font-style: italic;
+}
+
+p{
+  margin: 0em;
 }
